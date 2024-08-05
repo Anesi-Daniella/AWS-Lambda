@@ -56,6 +56,3 @@ https://knowledge-base.secureflag.com/_vulnerabilities/labs.json
 ## Development
 
 This project was developed using JavaScript/Node.js.
-
-For more information on AWS Lambda with API Gateway (for future reference), see:
-https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html
