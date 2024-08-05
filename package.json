@@ -1,0 +1,15 @@
+{
+  "name": "vulnerability-search-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda for searching vulnerability types",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
