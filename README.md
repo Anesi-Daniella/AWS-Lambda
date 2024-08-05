@@ -31,6 +31,7 @@ touch server.js in your terminal
 
 Ensure the server.js file has the following content: 
 
+/////////////////////////////////////////////////
 
 const express = require('express');
 const { handler } = require('./index');
@@ -46,7 +47,7 @@ app.post('/search', async (req, res) => {
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-
+///////////////////////////////////////////////////
 
 (This sets up a simple Express.js server to simulate an API Gateway for the lambda function)
 
