@@ -44,4 +44,12 @@ describe('Vulnerability Search Lambda', () => {
         
         expect(body).toEqual(["https://example.com/xss"]);
     });
+
+    test('returns empty array when no matches found', async () => {
+        const event = { body: JSON.stringify({ text: 'nonexistent' }) };
+        const result = await handler(event);
+        const body = JSON.parse(result.body);
+        
+        expect(body).toEqual([]);
+    });
 });

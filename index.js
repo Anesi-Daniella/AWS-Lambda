@@ -35,3 +35,5 @@ function searchMatches(text, knowledgeBase) {
         })
         .map(item => item.html_url);
 }
+
+module.exports = { handler: exports.handler };
